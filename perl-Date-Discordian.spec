@@ -3,8 +3,8 @@
 %bcond_without	tests	# Do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Date
-%define	pnam	Discordian
+%define		pdir	Date
+%define		pnam	Discordian
 Summary:	Date::Discordian - calculate the Discordian date of a particular day
 Summary(pl):	Date::Discordian - obliczanie daty diskordiañskiej dla okre¶lonego dnia
 Name:		perl-Date-Discordian
