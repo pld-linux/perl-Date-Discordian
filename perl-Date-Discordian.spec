@@ -6,8 +6,14 @@ Version:	1.35
 Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
+Group(cs):	Vývojové prostøedky/Programovací jazyky/Perl
 Group(de):	Entwicklung/Sprachen/Perl
+Group(es):	Desarrollo/Lenguajes/Perl
+Group(fr):	Development/Langues/Perl
+Group(ja):	³«È¯/¸À¸ì/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
+Group(pt):	Desenvolvimento/Linguagens/Perl
+Group(ru):	òÁÚÒÁÂÏÔËÁ/ñÚÙËÉ/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Date/Date-Discordian-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
@@ -18,21 +24,21 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Calculate the Discordian date of a particular 'real' date.
 
 Date::Discordian exports two functions - discordian(), and
-inverse_discordian. "discordian()", when given a time value,
-returns a string, giving the Discordian date for the given day.
-*inverse_discordian()*, given a Discordian date in the same format that
-"discordian()" emits, returns an epoch time value. It is pretty picky
-about time format. Pity.
+inverse_discordian. "discordian()", when given a time value, returns a
+string, giving the Discordian date for the given day.
+- *inverse_discordian()*, given a Discordian date in the same format
+  that "discordian()" emits, returns an epoch time value. It is pretty
+  picky about time format. Pity.
 
 %description -l pl
 Modu³ perla obliczaj±cy diskordiañsk± datê dla danej "prawdziwej"
 daty.
 
 Date::Discordian udostêpnia dwie funkcje - discordian() oraz
-inverse_discordian(). discordian() po podaniu warto¶ci czasu
-zwraca stringa zawieraj±cego datê diskordiañsk±. inverse_discordian()
-po podaniu daty w tym samym formacie, jaki produkuje discordian(),
-zwraca warto¶æ czasu.
+inverse_discordian(). discordian() po podaniu warto¶ci czasu zwraca
+stringa zawieraj±cego datê diskordiañsk±. inverse_discordian() po
+podaniu daty w tym samym formacie, jaki produkuje discordian(), zwraca
+warto¶æ czasu.
 
 %prep
 %setup -q -n Date-Discordian-%{version}
