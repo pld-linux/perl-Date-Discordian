@@ -3,7 +3,7 @@ Summary:	Date-Discordian
 Summary(pl):	Modu³ perla Date-Discordian
 Name:		perl-Date-Discordian
 Version:	1.35
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
@@ -23,6 +23,16 @@ returns a string, giving the Discordian date for the given day.
 *inverse_discordian()*, given a Discordian date in the same format that
 "discordian()" emits, returns an epoch time value. It is pretty picky
 about time format. Pity.
+
+%description -l pl
+Modu³ perla obliczaj±cy diskordiañsk± datê dla danej "prawdziwej"
+daty.
+
+Date::Discordian udostêpnia dwie funkcje - discordian() oraz
+inverse_discordian(). discordian() po podaniu warto¶ci czasu
+zwraca stringa zawieraj±cego datê diskordiañsk±. inverse_discordian()
+po podaniu daty w tym samym formacie, jaki produkuje discordian(),
+zwraca warto¶æ czasu.
 
 %prep
 %setup -q -n Date-Discordian-%{version}
