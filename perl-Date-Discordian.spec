@@ -6,7 +6,7 @@
 %define	pdir	Date
 %define	pnam	Discordian
 Summary:	Date::Discordian - calculate the Discordian date of a particular day
-Summary(pl):	Date::Discordian - oblicznie daty diskordiañskiej dla okre¶lonego dnia
+Summary(pl):	Date::Discordian - obliczanie daty diskordiañskiej dla okre¶lonego dnia
 Name:		perl-Date-Discordian
 Version:	1.36
 Release:	1
