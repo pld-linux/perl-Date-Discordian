@@ -3,8 +3,8 @@ Summary:	Date-Discordian
 Summary(pl):	Modu³ perla Date-Discordian
 Name:		perl-Date-Discordian
 Version:	1.35
-Release:	0
-License:	?
+Release:	1
+License:	Artistic
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
 Group(pl):	Programowanie/Jêzyki/Perl
