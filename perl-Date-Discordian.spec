@@ -4,12 +4,12 @@
 Summary:	Date::Discordian
 Summary(pl):	Modu³ perla Date::Discordian
 Name:		perl-Date-Discordian
-Version:	1.35
-Release:	6
+Version:	1.36
+Release:	1
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5240975b4368c1204c20fdadda084fbb
+# Source0-md5:	11aa1fce9f801d7d247542abc5a0fcc3
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Date-Leapyear
 BuildRequires:	perl-Date-ICal >= 1.54
