@@ -9,6 +9,7 @@ Release:	6
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	5240975b4368c1204c20fdadda084fbb
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	perl-Date-Leapyear
 BuildRequires:	perl-Date-ICal >= 1.54
