@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define	pnam	Discordian
-%include	/usr/lib/rpm/macros.perl
 Summary:	Date-Discordian
 Summary(pl):	Modu³ perla Date-Discordian
 Name:		perl-Date-Discordian
 Version:	1.35
-Release:	3
-
+Release:	4
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -36,7 +35,7 @@ podaniu daty w tym samym formacie, jaki produkuje discordian(), zwraca
 warto¶æ czasu.
 
 %prep
-%setup -q -n Date-Discordian-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
