@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Date
 %define	pnam	Discordian
-Summary:	Date-Discordian
-Summary(pl):	Modu³ perla Date-Discordian
+Summary:	Date::Discordian
+Summary(pl):	Modu³ perla Date::Discordian
 Name:		perl-Date-Discordian
 Version:	1.35
 Release:	4
