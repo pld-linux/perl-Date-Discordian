@@ -5,12 +5,16 @@ Summary:	Date::Discordian
 Summary(pl):	Modu³ perla Date::Discordian
 Name:		perl-Date-Discordian
 Version:	1.35
-Release:	4
+Release:	5
 License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildRequires:	perl >= 5.6
+BuildRequires:	perl-Date-Leapyear
+BuildRequires:	perl-Date-ICal >= 1.54
+BuildRequires:	perl-Memoize
+BuildRequires:	perl-Test-Simple
+BuildRequires:	rpm-perlprov >= 3.0.3-16
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -46,13 +50,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-#gzip -9nf README CHANGES
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-#%doc *.gz
+%doc Changes README
 %{perl_sitelib}/Date/Discordian.pm
 %{_mandir}/man3/*
