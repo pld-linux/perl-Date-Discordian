@@ -6,7 +6,7 @@
 %define		pdir	Date
 %define		pnam	Discordian
 Summary:	Date::Discordian - calculate the Discordian date of a particular day
-Summary(pl):	Date::Discordian - obliczanie daty diskordiañskiej dla okre¶lonego dnia
+Summary(pl.UTF-8):   Date::Discordian - obliczanie daty diskordiaÅ„skiej dla okreÅ›lonego dnia
 Name:		perl-Date-Discordian
 Version:	1.36
 Release:	1
@@ -33,15 +33,15 @@ string, giving the Discordian date for the given day.
   that "discordian()" emits, returns an epoch time value. It is pretty
   picky about time format. Pity.
 
-%description -l pl
-Modu³ perla obliczaj±cy diskordiañsk± datê dla danej "prawdziwej"
+%description -l pl.UTF-8
+ModuÅ‚ perla obliczajÄ…cy diskordiaÅ„skÄ… datÄ™ dla danej "prawdziwej"
 daty.
 
-Date::Discordian udostêpnia dwie funkcje - discordian() oraz
-inverse_discordian(). discordian() po podaniu warto¶ci czasu zwraca
-stringa zawieraj±cego datê diskordiañsk±. inverse_discordian() po
+Date::Discordian udostÄ™pnia dwie funkcje - discordian() oraz
+inverse_discordian(). discordian() po podaniu wartoÅ›ci czasu zwraca
+stringa zawierajÄ…cego datÄ™ diskordiaÅ„skÄ…. inverse_discordian() po
 podaniu daty w tym samym formacie, jaki produkuje discordian(), zwraca
-warto¶æ czasu.
+wartoÅ›Ä‡ czasu.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
