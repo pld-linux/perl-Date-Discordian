@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# Do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Date
 %define		pnam	Discordian
+%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Discordian - calculate the Discordian date of a particular day
 Summary(pl.UTF-8):	Date::Discordian - obliczanie daty diskordiańskiej dla określonego dnia
 Name:		perl-Date-Discordian
@@ -14,11 +14,12 @@ License:	Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	11aa1fce9f801d7d247542abc5a0fcc3
-BuildRequires:	perl-devel >= 1:5.8.0
-BuildRequires:	perl-Date-Leapyear
+URL:		http://search.cpan.org/dist/Date-Discordian/
 BuildRequires:	perl-Date-ICal >= 1.54
+BuildRequires:	perl-Date-Leapyear
 BuildRequires:	perl-Memoize
 BuildRequires:	perl-Test-Simple
+BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
