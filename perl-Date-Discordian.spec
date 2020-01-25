@@ -4,7 +4,6 @@
 
 %define		pdir	Date
 %define		pnam	Discordian
-%include	/usr/lib/rpm/macros.perl
 Summary:	Date::Discordian - calculate the Discordian date of a particular day
 Summary(pl.UTF-8):	Date::Discordian - obliczanie daty diskordiańskiej dla określonego dnia
 Name:		perl-Date-Discordian
